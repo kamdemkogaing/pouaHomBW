@@ -1,3 +1,11 @@
-body {
- font-family: fantasy;
+.content-top {
+	 background-color: #b9a982;
+}
+
+.formular-block {
+	margin-top: 50px;
+}
+
+.formular-block .mailingliste-header {
+	padding: 1.01em 16px;
 }
