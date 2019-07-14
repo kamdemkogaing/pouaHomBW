@@ -1,63 +1,66 @@
 <!DOCTYPE html>
 
 <html>
- <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta charset="UTF-8">
-  <title>Poua'Hom BW</title>
-  <link rel="shortcut icon" href="/img/logo_pouahom.JPG">
-  <link rel="stylesheet" type="text/css" href="./css/index.css">
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <!-- jQuery library -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <!-- Latest compiled JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Poua'Hom BW</title>
+    <link rel="shortcut icon" href="/img/logo_pouahom.JPG">
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
- <body class="content-top">
 
-  <div class="container formular-block">
-    <h2 class="w3-panel w3-leftbar w3-border-yellow w3-pale-yellow mailingliste-header">Anmeldung Mailingliste Poua'Homs BW</h2>
+<body class="content-top">
 
-    <form action="http://kundenserver.de/cgi-bin/mailinglist.cgi" method="POST" target="_blank">
-      <div class="checkbox">
-        <label><input checked name="subscribe_r" type="radio" value="subscribe"> Ja, ich möchte mich auf die Mailingliste baham@pouahom-bw.de</label>
-      </div>
-      <div class="checkbox">
-        <label><input type="radio" name="subscribe_r" value="unsubscribe"> Bitte streichen Sie mich wieder von der Mailingliste baham@pouahom-bw.de</label>
-      </div>
-      <div class="form-group">
-        <label for="email">Geben Sie Ihre E-Mail-Adresse ein:</label>
-        <input type="email" class="form-control" id="email" placeholder="Enter email" name="mailaccount_r">
-      </div>
-      <div class="form-group">
-        <label for="email">Wiederholen Sie die eingegebene E-Mail-Adresse:</label>
-        <input type="email" class="form-control" id="email" placeholder="Enter email" name="mailaccount2_r">
-      </div>
-      <button type="SUBMIT" class="btn btn-default" value="Absenden">Absenden</button>
-      <button type="RESET" class="btn btn-default" value="Zurücksetzen">Zurücksetzen</button>
-      <div class="form-group">
-        <input name="FBMLNAME" type="hidden" class="form-control" value="baham@pouahom-bw.de">
-      </div> 
-      <div class="form-group">
-        <input name="FBLANG" type="hidden" class="form-control" value="de">
-      </div>
-      <div class="form-group">
-        <input name="FBURLERROR_L" type="hidden" class="form-control" value="http://kundenserver.de/mailinglist/error.de.html">
-      </div>
-      <div class="form-group">
-        <input name="FBURLSUBSCRIBE_L" type="hidden" class="form-control" value="http://kundenserver.de/mailinglist/subscribe.de.html">
-      </div> 
-      <div class="form-group">
-        <input name="FBURLUNSUBSCRIBE_L" type="hidden" class="form-control" value="http://kundenserver.de/mailinglist/unsubscribe.de.html">
-      </div> 
-      <div class="form-group">
-        <input name="FBURLINVALID_L" type="hidden" class="form-control" value="http://kundenserver.de/mailinglist/invalid.de.html">
-      </div>
-   </form>
+    <div class="container formular-block">
+        <h2 class="w3-panel w3-leftbar w3-border-yellow w3-pale-yellow mailingliste-header">Anmeldung Mailingliste Poua'Homs BW</h2>
 
-  </div>
+        <form action="http://kundenserver.de/cgi-bin/mailinglist.cgi" method="POST" target="_blank">
+            <div class="checkbox">
+                <label><input checked name="subscribe_r" type="radio" value="subscribe"> Ja, ich möchte mich auf die Mailingliste baham@pouahom-bw.de</label>
+            </div>
+            <div class="checkbox">
+                <label><input type="radio" name="subscribe_r" value="unsubscribe"> Bitte streichen Sie mich wieder von der Mailingliste baham@pouahom-bw.de</label>
+            </div>
+            <div class="form-group">
+                <label for="email">Geben Sie Ihre E-Mail-Adresse ein:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email" name="mailaccount_r">
+            </div>
+            <div class="form-group">
+                <label for="email">Wiederholen Sie die eingegebene E-Mail-Adresse:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email" name="mailaccount2_r">
+            </div>
+            <button type="SUBMIT" class="btn btn-default" value="Absenden">Absenden</button>
+            <button type="RESET" class="btn btn-default" value="Zurücksetzen">Zurücksetzen</button>
+            <div class="form-group">
+                <input name="FBMLNAME" type="hidden" class="form-control" value="info@pouahom-bw.de">
+            </div>
+            <div class="form-group">
+                <input name="FBLANG" type="hidden" class="form-control" value="de">
+            </div>
+            <div class="form-group">
+                <input name="FBURLERROR_L" type="hidden" class="form-control" value="http://kundenserver.de/mailinglist/error.de.html">
+            </div>
+            <div class="form-group">
+                <input name="FBURLSUBSCRIBE_L" type="hidden" class="form-control" value="http://kundenserver.de/mailinglist/subscribe.de.html">
+            </div>
+            <div class="form-group">
+                <input name="FBURLUNSUBSCRIBE_L" type="hidden" class="form-control" value="http://kundenserver.de/mailinglist/unsubscribe.de.html">
+            </div>
+            <div class="form-group">
+                <input name="FBURLINVALID_L" type="hidden" class="form-control" value="http://kundenserver.de/mailinglist/invalid.de.html">
+            </div>
+        </form>
 
- </body>
+    </div>
+
+</body>
+
 </html>
